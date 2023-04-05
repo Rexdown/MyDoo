@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyDoo.Entities\MyDoo.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

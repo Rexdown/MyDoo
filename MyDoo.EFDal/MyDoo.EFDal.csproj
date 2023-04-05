@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyDoo.DAL.Interfaces\MyDoo.DAL.Interfaces.csproj" />
     <ProjectReference Include="..\MyDoo.Entities\MyDoo.Entities.csproj" />
   </ItemGroup>
 

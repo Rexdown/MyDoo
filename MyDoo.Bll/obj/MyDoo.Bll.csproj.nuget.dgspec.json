@@ -1,27 +1,209 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C++_Projects\\MyDoo.Bll\\MyDoo.Bll.csproj": {}
+    "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/MyDoo.Bll.csproj": {}
   },
   "projects": {
-    "D:\\C++_Projects\\MyDoo.Bll\\MyDoo.Bll.csproj": {
+    "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C++_Projects\\MyDoo.Bll\\MyDoo.Bll.csproj",
-        "projectName": "MyDoo.Bll",
-        "projectPath": "D:\\C++_Projects\\MyDoo.Bll\\MyDoo.Bll.csproj",
-        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "D:\\C++_Projects\\MyDoo.Bll\\obj\\",
+        "projectUniqueName": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj",
+        "projectName": "MyDoo.Bll.Interfaces",
+        "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj",
+        "packagesPath": "/Users/nikitaskabura/.nuget/packages/",
+        "outputPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nikitaskabura/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj": {
+                "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/MyDoo.Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/MyDoo.Bll.csproj",
+        "projectName": "MyDoo.Bll",
+        "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/MyDoo.Bll.csproj",
+        "packagesPath": "/Users/nikitaskabura/.nuget/packages/",
+        "outputPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikitaskabura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj": {
+                "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj"
+              },
+              "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj": {
+                "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj",
+        "projectName": "MyDoo.DAL.Interfaces",
+        "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj",
+        "packagesPath": "/Users/nikitaskabura/.nuget/packages/",
+        "outputPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikitaskabura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj": {
+                "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj",
+        "projectName": "MyDoo.Entities",
+        "projectPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/MyDoo.Entities.csproj",
+        "packagesPath": "/Users/nikitaskabura/.nuget/packages/",
+        "outputPath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikitaskabura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +227,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

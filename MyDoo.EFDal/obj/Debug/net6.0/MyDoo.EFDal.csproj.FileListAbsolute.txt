@@ -1,0 +1,17 @@
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.csproj.AssemblyReference.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.AssemblyInfoInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.AssemblyInfo.cs
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.csproj.CoreCompileInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.EFDal.deps.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.EFDal.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.EFDal.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.DAL.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.DAL.Interfaces.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/bin/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.csproj.CopyComplete
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/refint/MyDoo.EFDal.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/MyDoo.EFDal.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/obj/Debug/net6.0/ref/MyDoo.EFDal.dll

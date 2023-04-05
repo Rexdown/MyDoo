@@ -1,0 +1,15 @@
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/bin/Debug/net6.0/MyDoo.DAL.Interfaces.deps.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/bin/Debug/net6.0/MyDoo.DAL.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/bin/Debug/net6.0/MyDoo.DAL.Interfaces.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/bin/Debug/net6.0/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/bin/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.csproj.AssemblyReference.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.AssemblyInfoInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.AssemblyInfo.cs
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.csproj.CoreCompileInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.csproj.CopyComplete
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/refint/MyDoo.DAL.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/MyDoo.DAL.Interfaces.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/obj/Debug/net6.0/ref/MyDoo.DAL.Interfaces.dll

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Task = MyDoo.Entities.Task;
+using Task = MyDoo.Entities.UserTask;
 
 namespace MyDoo.EFDal.DbContexts;
 

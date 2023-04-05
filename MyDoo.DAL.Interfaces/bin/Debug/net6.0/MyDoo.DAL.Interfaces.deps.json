@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyDoo.DAL.Interfaces/1.0.0": {
+        "dependencies": {
+          "MyDoo.Entities": "1.0.0"
+        },
+        "runtime": {
+          "MyDoo.DAL.Interfaces.dll": {}
+        }
+      },
+      "MyDoo.Entities/1.0.0": {
+        "runtime": {
+          "MyDoo.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyDoo.DAL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyDoo.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

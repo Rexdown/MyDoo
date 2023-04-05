@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LsK4BYE14ZNotsms2UpNbRdP2bDMpK/wAqGxXqGn61cBZ1+e6VRy4R6VgLlD3XYOAGd/3jdpZYMqLNhLBiSlRA==",
+  "dgSpecHash": "crIb+UhmfbGxfoRoFAOh+hSfe9zxop8GXqemGeOzJ5OlS0S6yPNFJWv4qqwTdC+fo8+sVf2tCAbjWdvQL3KhyA==",
   "success": true,
-  "projectFilePath": "D:\\C++_Projects\\MyDoo.Bll.Interfaces\\MyDoo.Bll.Interfaces.csproj",
+  "projectFilePath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll.Interfaces/MyDoo.Bll.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

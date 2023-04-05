@@ -1,0 +1,12 @@
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/bin/Debug/net6.0/MyDoo.Entities.deps.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/bin/Debug/net6.0/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/bin/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.csproj.AssemblyReference.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.AssemblyInfoInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.AssemblyInfo.cs
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.csproj.CoreCompileInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/refint/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Entities/obj/Debug/net6.0/ref/MyDoo.Entities.dll

@@ -1,0 +1,12 @@
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Bll.deps.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Bll.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Bll.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.csproj.AssemblyReference.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.AssemblyInfoInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.AssemblyInfo.cs
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.csproj.CoreCompileInputs.cache
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/refint/MyDoo.Bll.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/ref/MyDoo.Bll.dll

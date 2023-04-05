@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "21F1t5yZxMK/eI+4G8ybvtsGjEnWCWd19cvBA8HlCAcf5FraBNWudlTyoD5qt9G+XSpJfGuCq8CLOxCYdGYaaw==",
+  "dgSpecHash": "9k4fDCv9CAvZkUUODcuDIGbYBU7pa1pz90NEj+AxA6eoGl4tr/SwPezs1sWSnfHQFVJft858F2pIx5qkgYzW4Q==",
   "success": true,
-  "projectFilePath": "D:\\C++_Projects\\MyDoo.DAL.Interfaces\\MyDoo.DAL.Interfaces.csproj",
+  "projectFilePath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.DAL.Interfaces/MyDoo.DAL.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

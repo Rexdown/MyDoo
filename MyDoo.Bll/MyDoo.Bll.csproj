@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0-preview.2.23128.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyDoo.Bll.Interfaces\MyDoo.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\MyDoo.DAL.Interfaces\MyDoo.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
