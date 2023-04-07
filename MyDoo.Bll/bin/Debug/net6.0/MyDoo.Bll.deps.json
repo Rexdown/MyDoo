@@ -7,14 +7,70 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MyDoo.Bll/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.2.23128.3",
+          "MyDoo.Bll.Interfaces": "1.0.0",
+          "MyDoo.DAL.Interfaces": "1.0.0"
+        },
         "runtime": {
           "MyDoo.Bll.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0-preview.2.23128.3": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "MyDoo.Bll.Interfaces/1.0.0": {
+        "dependencies": {
+          "MyDoo.Entities": "1.0.0"
+        },
+        "runtime": {
+          "MyDoo.Bll.Interfaces.dll": {}
+        }
+      },
+      "MyDoo.DAL.Interfaces/1.0.0": {
+        "dependencies": {
+          "MyDoo.Entities": "1.0.0"
+        },
+        "runtime": {
+          "MyDoo.DAL.Interfaces.dll": {}
+        }
+      },
+      "MyDoo.Entities/1.0.0": {
+        "runtime": {
+          "MyDoo.Entities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MyDoo.Bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kfj/lfXrJvSND1YVVmcvQD6zwbkKUV5vs+4rOig0wESj5Buh8+191P02Tm9EOEOo9kcJSsvzaSNFM7De/l+sHA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0-preview.2.23128.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "MyDoo.Bll.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyDoo.DAL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyDoo.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

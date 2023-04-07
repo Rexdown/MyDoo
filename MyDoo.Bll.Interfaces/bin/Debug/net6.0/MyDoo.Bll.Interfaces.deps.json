@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MyDoo.Bll.Interfaces/1.0.0": {
+        "dependencies": {
+          "MyDoo.Entities": "1.0.0"
+        },
         "runtime": {
           "MyDoo.Bll.Interfaces.dll": {}
+        }
+      },
+      "MyDoo.Entities/1.0.0": {
+        "runtime": {
+          "MyDoo.Entities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MyDoo.Bll.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyDoo.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

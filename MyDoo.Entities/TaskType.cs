@@ -8,13 +8,13 @@ namespace MyDoo.Entities
 {
     public enum TaskType
     {
-        Study,
-        Work,
-        House,
-        Friends,
-        Romantic,
-        Fun,
-        Health,
-        Sport
+        Study = 0,
+        Work = 1,
+        House = 2,
+        Friends = 3,
+        Romantic = 4,
+        Fun = 5,
+        Health = 6,
+        Sport = 7
     }
 }

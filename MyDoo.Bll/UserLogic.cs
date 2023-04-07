@@ -9,7 +9,7 @@ public class UserLogic : BaseLogic, IUserLogic
 {
     private readonly IUserDao _userDao;
 
-    protected UserLogic(
+    public UserLogic(
         ILogger<UserLogic> logger,
         IUserDao userDao) 
         : base(logger)

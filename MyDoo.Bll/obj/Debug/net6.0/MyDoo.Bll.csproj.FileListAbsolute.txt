@@ -10,3 +10,10 @@
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/refint/MyDoo.Bll.dll
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.pdb
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/ref/MyDoo.Bll.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Bll.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.DAL.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Entities.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Bll.Interfaces.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.DAL.Interfaces.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/bin/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.Bll/obj/Debug/net6.0/MyDoo.Bll.csproj.CopyComplete

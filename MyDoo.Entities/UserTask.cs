@@ -16,6 +16,6 @@ namespace MyDoo.Entities
         public bool Important { get; set; }
         public bool Complete { get; set; }
 
-        public virtual User User { get; set; }
+        //public virtual User User { get; set; }
     }
 }

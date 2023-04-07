@@ -17,27 +17,23 @@ public class TaskDao : BaseDAO, ITaskDao
         return task;
     }
 
-    public async Task<UserTask> GetUserTaskListAsync(int userId, DateTime date, TaskType type, bool important,
-        bool complete)
+    public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date)
     {
-        var tasks = await DbContext.Tasks.FirstOrDefaultAsync(t =>
+        var tasks =  DbContext.Tasks.Where(t =>
             t.Id == userId
-            && t.Date == date
-            && t.Type == type
-            && t.Important == important
-            && t.Complete == complete);
+            && t.Date == date).ToList();
         return tasks;
     }
     
-    public async Task<UserTask> GetUserTaskListAsync(int userId, DateTime date, bool important, bool complete)
-    {
-        var tasks = await DbContext.Tasks.FirstOrDefaultAsync(t =>
-            t.Id == userId
-            && t.Date == date
-            && t.Important == important
-            && t.Complete == complete);
-        return tasks;
-    }
+    // public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date, bool important, bool complete)
+    // {
+    //     var tasks =  DbContext.Tasks.Where(t =>
+    //         t.Id == userId
+    //         && t.Date == date
+    //         && t.Important == important
+    //         && t.Complete == complete).ToList();
+    //     return tasks;
+    // }
 
     public async Task AddUserTaskAsync(UserTask task)
     {

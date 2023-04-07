@@ -9,7 +9,7 @@ public class TaskLogic : BaseLogic, ITaskLogic
 {
     private readonly ITaskDao _taskDao;
     
-    protected TaskLogic(
+    public TaskLogic(
         ILogger<TaskLogic> logger,
         ITaskDao taskDao) 
         : base(logger)
@@ -22,15 +22,15 @@ public class TaskLogic : BaseLogic, ITaskLogic
         return _taskDao.GetUserTaskAsync(id);
     }
 
-    public Task<UserTask> GetUserTaskListAsync(int userId, DateTime date, TaskType type, bool important, bool complete)
+    public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date)
     {
-        return _taskDao.GetUserTaskListAsync(userId, date, type, important, complete);
+        return _taskDao.GetUserTaskList(userId, date);
     }
 
-    public Task<UserTask> GetUserTaskListAsync(int userId, DateTime date, bool important, bool complete)
-    {
-        return _taskDao.GetUserTaskListAsync(userId, date, important, complete);
-    }
+    // public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date, bool important, bool complete)
+    // {
+    //     return _taskDao.GetUserTaskList(userId, date, important, complete);
+    // }
 
     public Task AddUserTaskAsync(UserTask task)
     {

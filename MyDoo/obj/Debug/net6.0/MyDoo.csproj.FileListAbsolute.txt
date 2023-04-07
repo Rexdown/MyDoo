@@ -50,3 +50,8 @@
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.EFDal.pdb
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.DAL.Interfaces.pdb
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Entities.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/AutoMapper.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Bll.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Bll.Interfaces.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Bll.pdb
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Bll.Interfaces.pdb
