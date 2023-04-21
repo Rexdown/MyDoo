@@ -32,6 +32,7 @@ public sealed class NpgsqlContext : DbContext
         users.Property(u => u.Email).IsRequired();
         users.Property(u => u.Name).IsRequired();
         users.Property(u => u.Password).IsRequired();
+        users.Property(u => u.TGName).IsRequired();
     }
 
 

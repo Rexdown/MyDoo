@@ -35,6 +35,22 @@ public class UserController : Controller
         }
     }
     
+    [HttpGet]
+    [Route("user/get/tg")]
+    public async Task<IActionResult> GetUserTg(string tgname)
+    {
+        try
+        {
+            var result = await _userLogic.GetUserTgAsync(tgname);
+        
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"{ex.GetType()}: {ex.Message}");
+        }
+    }
+    
     [HttpPost]
     [Route("user/register/")]
     public async Task<IActionResult> AddUserAsync(User user)

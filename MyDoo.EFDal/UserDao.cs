@@ -23,6 +23,13 @@ public class UserDao : BaseDAO, IUserDao
         return user;
     }
 
+    public async Task<User> GetUserTgAsync(string tgname)
+    {
+        var user = await DbContext.Users.FirstOrDefaultAsync(u => u.TGName == tgname);
+        return user;
+    }
+
+
     public async Task<bool> CheckUserAsync(string email, string password)
     {
         var user = await DbContext.Users

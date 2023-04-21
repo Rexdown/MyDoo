@@ -26,6 +26,11 @@ public class UserLogic : BaseLogic, IUserLogic
     {
         return _userDao.GetUserAsync(email);
     }
+    
+    public Task<User> GetUserTgAsync(string tgname)
+    {
+        return _userDao.GetUserTgAsync(tgname);
+    }
 
     public Task<bool> CheckUserAsync(string email, string password)
     {
