@@ -42,7 +42,7 @@ public class UserDao : BaseDAO, IUserDao
 
     public async Task AddUserAsync(User user)
     {
-        await DbContext.AddAsync(user);
+        await DbContext.Users.AddAsync(user);
         await DbContext.SaveChangesAsync();
     }
 

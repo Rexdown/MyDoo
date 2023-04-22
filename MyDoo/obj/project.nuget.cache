@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V43Dt0+KnVYiwaJx3LbeVG1cOWqOvCBqJz0chthg2SRibuprTmS9A0QStc+uHd6mWGVOZy9C5zxwfrv17CtjaA==",
+  "dgSpecHash": "dg80XV8TLeTp6uCDFPqkOSeC0NJoREHcBcP3dpE6hgB/wHKqDp4XzrAyRqhi+YQGROHMWtRCeF3je76zn85KcA==",
   "success": true,
   "projectFilePath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/MyDoo.csproj",
   "expectedPackageFiles": [
@@ -21,13 +21,15 @@
     "/Users/nikitaskabura/.nuget/packages/microsoft.extensions.options/8.0.0-preview.2.23128.3/microsoft.extensions.options.8.0.0-preview.2.23128.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.2.23128.3/microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nikitaskabura/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/npgsql/8.0.0-preview.2/npgsql.8.0.0-preview.2.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.0-preview.2/npgsql.entityframeworkcore.postgresql.8.0.0-preview.2.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "/Users/nikitaskabura/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/nikitaskabura/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/nikitaskabura/.nuget/packages/telegram.bot/19.0.0-preview.2/telegram.bot.19.0.0-preview.2.nupkg.sha512"
   ],
   "logs": []
 }

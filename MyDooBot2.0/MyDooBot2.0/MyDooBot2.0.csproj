@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-MyDooBot2._0-F91D85A1-93B6-48B9-9CF9-3197C0B720FB</UserSecretsId>
+        <RootNamespace>MyDooBot2._0</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0-preview.2" />
+        <PackageReference Include="Telegram.Bot" Version="19.0.0-preview.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\MyDoo.EFDal\MyDoo.EFDal.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\MyDoo\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+</Project>

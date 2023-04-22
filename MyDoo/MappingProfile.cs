@@ -8,7 +8,8 @@ public class MappingProfile : Profile
 {
    public MappingProfile()
    {
-      CreateMap<UserView, User>();
+      CreateMap<UserLoginView, User>();
+      CreateMap<UserRegisterView, User>();
       CreateMap<GetTasksView, UserTask>();
    }
 }
