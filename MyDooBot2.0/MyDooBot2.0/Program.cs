@@ -5,7 +5,7 @@ using MyDoo.DAL.Interfaces;
 using MyDoo.EFDal;
 using MyDoo.EFDal.DbContexts;
 
-namespace MyDooBot2._0
+namespace MyDooBot
 {
     public class Program
     {

@@ -2,7 +2,7 @@ using MyDoo.EFDal.DbContexts;
 
 namespace MyDoo.EFDal;
 
-public class BaseDAO : IAsyncDisposable
+public class BaseDAO : IAsyncDisposable, IDisposable
 {
     protected readonly NpgsqlContext DbContext;
 
@@ -14,5 +14,10 @@ public class BaseDAO : IAsyncDisposable
     public async ValueTask DisposeAsync()
     {
         await DbContext.DisposeAsync();
+    }
+
+    public void Dispose()
+    {
+        DbContext.Dispose();
     }
 }
