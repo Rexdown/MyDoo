@@ -1,7 +1,9 @@
+using System.Text;
 using Microsoft.EntityFrameworkCore;
 using MyDoo.DAL.Interfaces;
 using MyDoo.EFDal.DbContexts;
 using MyDoo.Entities;
+using Newtonsoft.Json;
 
 namespace MyDoo.EFDal;
 
@@ -30,14 +32,14 @@ public class UserDao : BaseDAO, IUserDao
     }
 
 
-    public async Task<bool> CheckUserAsync(string email, string password)
+    public async Task<int> CheckUserAsync(string email, string password)
     {
         var user = await DbContext.Users
             .FirstOrDefaultAsync(u => 
                 u.Email == email
                 && u.Password == password);
         
-        return user != null;
+        return user.Id;
     }
 
     public async Task AddUserAsync(User user)

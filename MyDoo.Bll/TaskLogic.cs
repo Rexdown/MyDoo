@@ -1,18 +1,23 @@
 using Microsoft.Extensions.Logging;
 using MyDoo.Bll.Interfaces;
+using MyDoo.Bll.RabbitMq;
 using MyDoo.DAL.Interfaces;
 using MyDoo.Entities;
+using MyDoo.Entities.DTO;
+using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace MyDoo.Bll;
 
 public class TaskLogic : BaseLogic, ITaskLogic
 {
     private readonly ITaskDao _taskDao;
-    
+
     public TaskLogic(
         ILogger<TaskLogic> logger,
-        ITaskDao taskDao) 
-        : base(logger)
+        ITaskDao taskDao,
+        IRabbitMqMessageService rabbitMqMessageService) 
+        : base(logger, rabbitMqMessageService)
     {
         _taskDao = taskDao;
     }
@@ -22,15 +27,19 @@ public class TaskLogic : BaseLogic, ITaskLogic
         return _taskDao.GetUserTaskAsync(id);
     }
 
-    public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date)
+    public async Task<IEnumerable<UserTask>> GetUserTaskListAsync(int userId, DateTime date)
     {
-        return _taskDao.GetUserTaskList(userId, date);
-    }
+        var dto = new GetUserTasksDTO
+        {
+            UserId = userId,
+            Date = date
+        };
 
-    // public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date, bool important, bool complete)
-    // {
-    //     return _taskDao.GetUserTaskList(userId, date, important, complete);
-    // }
+        var serializedResponse = (string) await RabbitMqMessageService.SendMessageWithReplyAsync(dto).ConfigureAwait(false);
+        var response = JsonConvert.DeserializeObject<IEnumerable<UserTask>>(serializedResponse);
+        
+        return response;
+    }
 
     public Task AddUserTaskAsync(UserTask task)
     {

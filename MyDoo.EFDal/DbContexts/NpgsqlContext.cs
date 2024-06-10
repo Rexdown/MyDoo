@@ -35,7 +35,6 @@ public sealed class NpgsqlContext : DbContext
         users.Property(u => u.TGName).IsRequired();
     }
 
-
     private void RegistrateTask(ModelBuilder modelBuilder)
     {
         var tasks = modelBuilder.Entity<Task>();

@@ -84,7 +84,7 @@ public class UserController : Controller
                 user.Password = resultPassword;
             
                 await _userLogic.AddUserAsync(user);
-        
+                
                 return Ok();
             }
             return BadRequest("Пользователь с таким Telegramm уже зарегистрирован");
@@ -104,10 +104,7 @@ public class UserController : Controller
             var userInfo = _mapper.Map<User>(userView);
             var result = await _userLogic.CheckUserAsync(userInfo.Email, userInfo.Password);
 
-            if (result)
-                return Ok();
-            
-            return BadRequest();
+            return Ok(new { userId = result });
         }
         catch (Exception ex)
         {

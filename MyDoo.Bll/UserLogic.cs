@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Logging;
 using MyDoo.Bll.Interfaces;
+using MyDoo.Bll.RabbitMq;
 using MyDoo.DAL.Interfaces;
 using MyDoo.Entities;
 
@@ -11,8 +12,9 @@ public class UserLogic : BaseLogic, IUserLogic
 
     public UserLogic(
         ILogger<UserLogic> logger,
-        IUserDao userDao) 
-        : base(logger)
+        IUserDao userDao,
+        IRabbitMqMessageService rabbitMqMessageService) 
+        : base(logger, rabbitMqMessageService)
     {
         _userDao = userDao;
     }
@@ -32,7 +34,7 @@ public class UserLogic : BaseLogic, IUserLogic
         return _userDao.GetUserTgAsync(tgname);
     }
 
-    public Task<bool> CheckUserAsync(string email, string password)
+    public Task<int> CheckUserAsync(string email, string password)
     {
         return _userDao.CheckUserAsync(email, password);
     }

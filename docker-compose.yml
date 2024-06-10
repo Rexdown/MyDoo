@@ -10,16 +10,26 @@ services:
       PGDATA: /Library/PostgreSQL/15/data
     ports:
       - "54321:5432"
-  web_api:
-    build:
-      context: .
-      dockerfile: MyDoo/Dockerfile
-    ports:
-      - "5001:80"
-  telegram_bot:
-    build:
-      context: .
-      dockerfile: MyBot/Dockerfile
+  # web_api:
+  #   build:
+  #     context: .
+  #     dockerfile: MyDoo/Dockerfile
+  #   ports:
+  #     - "5001:80"
+  #   depends_on:
+  #     - db
+  # data_access_service:
+  #   build:
+  #     context: .
+  #     dockerfile: MyDoo.DataAccess.Service2/Dockerfile
+  #   depends_on:
+  #     - db
+  # telegram_bot:
+  #   build:
+  #     context: .
+  #     dockerfile: MyBot/Dockerfile
+  #   depends_on:
+  #     - db
   rabbitmq3:
     image: rabbitmq:3.8-management-alpine
     environment:
@@ -30,9 +40,9 @@ services:
       - '5672:5672'
       # HTTP management UI
       - '15672:15672'
-  ui:
-    build:
-      context: .
-      dockerfile: MyDooUI/Dockerfile
-    ports:
-      - "80:3000"
+  # ui:
+  #   build:
+  #     context: .
+  #     dockerfile: MyDooUI/Dockerfile
+  #   ports:
+  #     - "80:3000"

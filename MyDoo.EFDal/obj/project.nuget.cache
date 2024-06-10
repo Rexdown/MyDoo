@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "48eos4+7z/psY94omYZE43FBF5YU96xF27bCz2WQWrnZTFt3maM9OZF1kawQ9uYHPoqpABceFiDQctaTKd51uQ==",
+  "dgSpecHash": "8+JtGSniwJ4wzNTSaWLlfztGovhut3HoY03gGF3NIyRZp0rSjC4j5HcpyxIJTyGmLXNdJMJkIfXLAGue3jA9aw==",
   "success": true,
   "projectFilePath": "/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo.EFDal/MyDoo.EFDal.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/Users/nikitaskabura/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/nikitaskabura/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/nikitaskabura/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

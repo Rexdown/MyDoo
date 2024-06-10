@@ -20,7 +20,7 @@ public class TaskDao : BaseDAO, ITaskDao
     public IEnumerable<UserTask> GetUserTaskList(int userId, DateTime date)
     {
         var tasks =  DbContext.Tasks.Where(t =>
-            t.Id == userId
+            t.UserId == userId
             && t.Date == date).ToList();
         return tasks;
     }

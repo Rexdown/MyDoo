@@ -21,12 +21,12 @@ public class TasksController : Controller
     
     [HttpGet]
     [Route("tasks/get/")]
-    public IActionResult GetTasks(int userId, DateTime date)
+    public async Task<IActionResult> GetTasks(int userId, DateTime date)
     {
         try
         {
             // var userTask = _mapper.Map<UserTask>(getTasksView);
-            var result = _taskLogic.GetUserTaskList(userId, date);
+            var result = await _taskLogic.GetUserTaskListAsync(userId, date);
         
             return Ok(result);
         }

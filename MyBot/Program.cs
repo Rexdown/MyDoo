@@ -1,9 +1,10 @@
 using MyBot;
-using MyBot.Utils;
 using Microsoft.EntityFrameworkCore;
 using MyDoo.DAL.Interfaces;
 using MyDoo.EFDal;
 using MyDoo.EFDal.DbContexts;
+using MyDoo.Entities;
+using EnvironmentVariables = MyBot.Utils.EnvironmentVariables;
 
 namespace MyBot
 {
@@ -23,6 +24,8 @@ namespace MyBot
                 var generalConfiguration = hostContext.Configuration;
                 services.Configure<EnvironmentVariables>(
                     generalConfiguration.GetSection("EnvironmentVariables"));
+                services.Configure<BusOptions>(
+                    generalConfiguration.GetSection(BusOptions.SectionName));
                 
                 var npgsqlConfig = generalConfiguration
                     .GetSection("EnvironmentVariables")
@@ -33,9 +36,7 @@ namespace MyBot
                     options.UseNpgsql(npgsqlConfig?.NpgsqlConnectionString);
                 });
 
-                services.AddScoped<IUserDao, UserDao>();
-                
-                services.AddHostedService<Worker>();
+                services.AddScopedSingleton<IUserDao, UserDao>();
 
                 var options = new DbContextOptionsBuilder<NpgsqlContext>();
                 options.UseNpgsql(npgsqlConfig?.NpgsqlConnectionString);

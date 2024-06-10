@@ -7,7 +7,7 @@ namespace MyDoo.Bll.Interfaces
         Task<User> GetUserAsync(int id);
         Task<User> GetUserAsync(string email);
         Task<User> GetUserTgAsync(string tgname);
-        Task<bool> CheckUserAsync(string email, string password);
+        Task<int> CheckUserAsync(string email, string password);
         Task AddUserAsync(User user);
         Task<bool> RemoveUserAsync(int id);
         Task UpdateUserAsync(User user);

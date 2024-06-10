@@ -8,6 +8,7 @@ using MyDoo.DAL.Interfaces;
 using MyDoo.EFDal;
 using MyDoo.EFDal.DbContexts;
 using MyDoo.Entities;
+using MyDoo.Bll.RabbitMq;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,7 @@ builder.Services.AddScoped<IUserDao, UserDao>();
 builder.Services.AddScoped<ITaskDao, TaskDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<ITaskLogic, TaskLogic>();
+builder.Services.AddSingleton<IRabbitMqMessageService, RabbitMqMessageService>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
@@ -30,7 +32,8 @@ builder.Services.AddControllers().AddJsonOptions(options =>
     options.JsonSerializerOptions.Converters.Add(jsonConverter);
 });
 
-var config = builder.Configuration
+var configRoot = builder.Configuration;
+var config = configRoot
     .GetSection("EnvironmentVariables")
     .Get<EnvironmentVariables>();
 
@@ -42,6 +45,7 @@ var mappingConfig = new MapperConfiguration(mc =>
 
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
+builder.Services.Configure<BusOptions>(configRoot.GetSection(BusOptions.SectionName));
 
 builder.Services.AddDbContext<NpgsqlContext>(options =>
 {
@@ -54,7 +58,11 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors(cors => cors.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+app.UseCors(cors => cors
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowAnyOrigin());
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

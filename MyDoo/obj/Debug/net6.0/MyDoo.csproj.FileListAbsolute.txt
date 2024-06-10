@@ -57,3 +57,7 @@
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.Bll.Interfaces.pdb
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/Telegram.Bot.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.DataAccess.Service/obj/MyDoo.DataAccess.Service.csproj.nuget.dgspec.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/MyDoo.DataAccess.Service/obj/project.assets.json
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/RabbitMQ.Client.dll
+/Users/nikitaskabura/RiderProjects/MyDoo/MyDoo/bin/Debug/net6.0/System.Threading.Channels.dll

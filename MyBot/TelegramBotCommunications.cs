@@ -74,6 +74,7 @@ public class TelegramBotCommunications
                 result.Password = resultPassword;
                 _userDao.UpdateUserAsync(result);
                 
+                tgClient.SendTextMessageAsync(update.Message.Chat.Id, $"Ваш логин: {result.Email}", cancellationToken: token);
                 tgClient.SendTextMessageAsync(update.Message.Chat.Id, $"Ваш пароль: {resultPassword}", cancellationToken: token);
                 break;
             default:
