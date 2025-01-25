@@ -7,7 +7,7 @@ using MyDoo.Entities;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace MyDoo.Bll.RabbitMq;
+namespace MyDoo.Extensions.RabbitMq;
 
 public class RabbitMqMessageService : IRabbitMqMessageService
 {

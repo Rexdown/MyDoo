@@ -1,4 +1,4 @@
-namespace MyDoo.Bll.RabbitMq;
+namespace MyDoo.Extensions.RabbitMq;
 
 public interface IRabbitMqMessageService
 {
